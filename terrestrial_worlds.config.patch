@@ -27,12 +27,12 @@
           "primaryRegion": ["nitrogenseaunderground"]
         },
         "underground2": {
-          "primaryRegion": ["nitrogenseaunderground"],
-		  "secondaryRegions": ["precursorunderground"]
+          "primaryRegion": ["icewasteunderground"],
+		      "secondaryRegions": ["precursorunderground"]
         },
         "underground3": {
-          "primaryRegion": ["nitrogenseaunderground"],
-		  "secondaryRegions": ["precursorunderground"]
+          "primaryRegion": ["icewasteunderground"],
+		      "secondaryRegions": ["precursorunderground"]
         },
         "core": {
           "primaryRegion": ["nitrogencore"]

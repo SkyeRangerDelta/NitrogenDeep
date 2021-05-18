@@ -1,0 +1,17 @@
+[
+    {
+        "op": "add",
+        "path": "/outputs/nitrogendeep",
+        "value": [
+            {
+                "weight": "common", "items": [ "liquidnitrogenitem", "fu_nitrogen", "snowflake", "fu_hydrogen", "liquidwater", "fu_carbon", "fu_salt", "fu_carbondioxide"]
+            },
+            {
+                "weight": "uncommon", "items": [ "methanol", "iodine", "mutagene1", "mutagene2", "icecrystal", "fu_oxygen", "fu_hydrogenmetallic" ]
+            },
+            {
+                "weight": "rare", "items": [ "mutagene3", "isogenore", "tritium", "aliencompound", "deuterium", "helium3gasliquid" ]
+            }
+        ]
+    }
+]
