@@ -1,0 +1,45 @@
+[
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/nitrogendeep",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/nitrogendeep_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [
+        1,
+        25
+      ],
+      "maskPerPlanetRange": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/nitrogendeep",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/nitrogendeep/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange": [
+        1,
+        20
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/dyingSunFrozen/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/blueSunFrozen/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/nitrogendeep",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [
+        4,
+        5
+      ],
+      "layers": {
+		"space": {
+			"primaryRegion": ["iceasteroids", "asteroids", "erchiusasteroid"]
+		},
+        "surface": {
+          "primaryRegion": [
+            "nitrogendeep"
+          ]
+        },
+        "subsurface": {
+          "primaryRegion": [
+            "nitrogendeepfloor"
+          ],
+          "dungeons": [[1.0, "hylotloceancity"], [1.0, "apexunderwaterlab"]]
+        },
+        "underground1": {
+          "primaryRegion": ["nitrogenseaunderground"]
+        },
+        "underground2": {
+          "primaryRegion": ["nitrogenseaunderground"],
+		  "secondaryRegions": ["precursorunderground"]
+        },
+        "underground3": {
+          "primaryRegion": ["nitrogenseaunderground"],
+		  "secondaryRegions": ["precursorunderground"]
+        },
+        "core": {
+          "primaryRegion": ["nitrogencore"]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/nitrogendeep",
+    "value": {
+      "oceanLiquid": [
+        "liquidnitrogen"
+      ],
+      "blockSelector": [
+        "remixedIslandsSurface"
+      ],
+      "fgCaveSelector": [
+        "empty"
+      ],
+      "bgCaveSelector": [
+        "empty"
+      ],
+      "biome": [
+        [
+          0,
+          [
+            "nitrogendeep"
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/nitrogendeepfloor",
+    "value": {
+      "oceanLiquid": [
+        "liquidnitrogen"
+      ],
+      "oceanLevelOffset": 1000,
+      "blockSelector": [
+        "ledgesSurface"
+      ],
+      "fgCaveSelector": [
+        "emptier"
+      ],
+      "bgCaveSelector": [
+        "emptiest"
+      ],
+      "biome": [
+        [
+          0,
+          [
+            "nitrogendeepfloor"
+          ]
+        ]
+      ]
+    }
+  }
+]

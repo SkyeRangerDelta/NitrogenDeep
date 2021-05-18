@@ -1,0 +1,12 @@
+{
+  "version" : "1.00.1",
+  "tags" : "Planets and Environments",
+  "author" : "SkyeRangerDelta",
+  "description" : "Mod that adds a new planet similar to Frackin Universe's Nitrogen Sea (but a bit colder). It is simply a massive liquid nitrogen expanse without a large terrain covering; like an Arctic world. It spawns around Dying Stars, Frozen Stars, and Blue Stars. Note that uninstallation requires a universe wipe.",
+  "requires" : [],
+  "name" : "nitrogendeep",
+  "friendlyName" : "Nitrogen Deep",
+  "steamContentId" : "2003959183",
+  "link" : "steam://url/CommunityFilePage/2003959183",
+  "includes" : ["FrackinUniverse"]
+}
