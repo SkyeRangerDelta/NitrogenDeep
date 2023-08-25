@@ -9,19 +9,28 @@
         5
       ],
       "layers": {
-		"space": {
-			"primaryRegion": ["iceasteroids", "asteroids", "erchiusasteroid"]
-		},
+        "space": {
+          "primaryRegion": ["iceasteroids", "asteroids", "erchiusasteroid", "elderasteroid", "gleamingasteroid"]
+        },
+        "atmosphere": {
+          "primaryRegion": ["iceclouds"]
+        }
         "surface": {
           "primaryRegion": [
             "nitrogendeep"
+          ],
+          "dungeons": [
+            [1.0, "apextestfacility"],
+            [1.0, "apexunderwaterlab"],
+            [1.0, "fuscifidungeon"],
+            [1.0, "apextestchamber"],
+            [1.0, "ship1"]
           ]
         },
         "subsurface": {
           "primaryRegion": [
             "nitrogendeepfloor"
-          ],
-          "dungeons": [[1.0, "hylotloceancity"], [1.0, "apexunderwaterlab"]]
+          ]
         },
         "underground1": {
           "primaryRegion": ["nitrogenseaunderground"]

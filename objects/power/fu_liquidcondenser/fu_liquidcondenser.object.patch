@@ -1,0 +1,9 @@
+[
+    {
+        "op": "add",
+        "path": "/liquids",
+        "value": [
+            "nitrogendeep": { "liquid": 56, "cooldown": 2 }
+        ]
+    }
+]

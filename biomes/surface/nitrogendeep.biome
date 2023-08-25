@@ -10,10 +10,12 @@
         "select" : 2,
         "pool" : [
           [ 0.07, "icetroll" ],
-          [ 0.07, "wisper" ],
-          [ 0.07, "wisper7" ],
-          [ 0.07, "cryopod" ],
-          [ 0.07, "garflipp" ]
+          [ 0.1, "wisper" ],
+          [ 0.1, "wisper7" ],
+          [ 0.1, "cryopod" ],
+          [ 0.07, "garflipp" ],
+          [ 0.1, "icecrab" ],
+          [ 0.1, "fusnowfennix" ],
         ]
       },
       {
@@ -29,14 +31,10 @@
       {
         "select" : 2,
         "pool" : "generatedGround"
-      },
-      {
-        "select" : 2,
-        "pool" : "generatedFlying"
       }
     ],
     "monsterParameters" : {
-      "colors" : "arctic",
+      "colors" : "ice",
       "statusSettings": {
         "stats" : {
             "ffextremecoldImmunity" : {
@@ -46,6 +44,9 @@
               "baseValue" : 1.0
             },
             "liquidnitrogenImmunity" : {
+              "baseValue" : 1.0
+            },
+            "iceslipImmunity" : {
               "baseValue" : 1.0
             }
         }
@@ -60,8 +61,10 @@
   "weather" : [
     [0, [
       "/weather.config:nitrogensea",
-	  "/weather.config:snowywindy",
-	  "/weather.config:icewaste"
+      "/weather.config:snowywindy",
+      "/weather.config:icewaste",
+      "/weather.config:snowyfrozen",
+      "/weather.config:snowyfrozensevere",
     ]]
   ],
   "skyOptions" : [
@@ -139,7 +142,7 @@
 
   "mainBlock" : "ice",
   "subBlocks" : [ "slush", "frozensand2", "frozenwater" ],
-  "ores" : "surface",
+  "ores" : "ff_icewasteOres",
 
   "parallax" : "/parallax/surface/arctic.parallax",
 
