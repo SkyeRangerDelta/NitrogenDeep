@@ -1,9 +1,9 @@
 [
     {
         "op": "add",
-        "path": "/liquids",
+        "path": "/liquids/nitrogendeep",
         "value": [
-            "nitrogendeep": { "liquid": 56, "cooldown": 2 }
+            { "liquid": 56, "cooldown": 2 }
         ]
     }
 ]
