@@ -19,6 +19,9 @@
           "primaryRegion": [
             "nitrogendeep"
           ],
+          "secondaryRegions": [
+            "icefire", "snow", "precursorsurface"
+          ],
           "dungeons": [
             [1.0, "apextestfacility"],
             [1.0, "apexunderwaterlab"],
@@ -33,15 +36,15 @@
           ]
         },
         "underground1": {
-          "primaryRegion": ["nitrogenseaunderground"]
+          "primaryRegion": ["nitrogenseaunderground", "ffcoralcave"]
         },
         "underground2": {
           "primaryRegion": ["icewasteunderground"],
-		      "secondaryRegions": ["precursorunderground"]
+		      "secondaryRegions": ["precursorunderground", "icecaves", "ffcoralcave"]
         },
         "underground3": {
           "primaryRegion": ["icewasteunderground"],
-		      "secondaryRegions": ["precursorunderground"]
+		      "secondaryRegions": ["precursorunderground", "icecaves", "ffcoralcave"]
         },
         "core": {
           "primaryRegion": ["nitrogencore"]
@@ -82,7 +85,7 @@
       "oceanLiquid": [
         "liquidnitrogen"
       ],
-      "oceanLevelOffset": 1000,
+      "oceanLevelOffset": 1500,
       "blockSelector": [
         "ledgesSurface"
       ],
