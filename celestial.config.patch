@@ -7,10 +7,10 @@
       "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
       "maskRange": [
         1,
-        15
+        25
       ],
       "maskPerPlanetRange": [
-        2,
+        1,
         3
       ]
     }
