@@ -36,5 +36,25 @@
     "op": "add",
     "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
     "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/dyingSunCool/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/dyingSunFrozen/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/blackSunCool/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/blackSunFrozen/baseParameters/terrestrialType/-",
+    "value": "nitrogendeep"
   }
 ]
