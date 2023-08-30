@@ -54,7 +54,7 @@
     }
   },
 
-  "statusEffects" : [ "ffbiomecold3", "biomeairless" ],
+  "statusEffects" : [ "ffbiomecold4", "biomeairless" ],
 
   "hueShiftOptions" : [0],
 
